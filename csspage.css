@@ -1,0 +1,79 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    width: 200px;
+    float: left;
+    margin-left: 60px;
+    margin-right: 40px;
+    
+
+
+}
+.menu{
+    list-style: none;
+    float: right;
+
+}
+.eachmenu{
+    display: inline;
+    color:lightgreen;
+    font-size: 130%;
+   
+    margin-right: 20px;
+    font-weight: bold;
+   
+    cursor: pointer
+
+}
+.eachmenu:hover{
+    color:gold;
+    border-bottom: 1px solid goldenrod;
+    transition:all 0.3s ease-in;
+    padding-bottom: 6px;
+}
+header{
+    background-image: linear-gradient(to right,  rgba(255,255,255,1),
+    rgba(255,255,100,0)),
+    url("ibm4.jpg");
+    height:100vh;
+    background-position:center;
+
+    z-index: -2;
+
+}
+.mainmessage{
+    top:40%;
+    position: absolute;
+    left: 4%;
+    font-size: 300%;
+    color: red;
+
+}
+.buttoncontainer{
+   
+
+    
+    margin-top: 15px;
+
+}
+.button{
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: aquamarine;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 40px;
+
+    z-index: -2;
+}
+.button:hover{
+    color: red;
+    
+    transition:all 0.3s ease-in;
+     background-color: lightpink;
+     padding-left: 10px;
+    padding-right: 10px;
+
+}

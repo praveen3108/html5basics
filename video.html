@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<button> onclick="playvideo()"; Play </button>
+<button> onclick="pausevideo()"; Pause </button>
+<body>
+    <h1>Welcome</h1>
+    <video id="myvideo" width="640" controls autoplay muted>
+        <source src="001.mp4 " type="video/mp4">
+    </video>
+    <script>
+        var videoref= document.getElementById("myvideo");
+        playvideo=function();{
+            videoref=play();
+        }
+        pausevideo=function();{
+            videoref=pause();
+        }
+    </script>
+</body>
+</html>
